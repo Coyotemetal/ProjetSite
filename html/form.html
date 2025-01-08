@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="theme_link" rel="stylesheet" href="../css/style1.css">
+    <script defer src="../JS/script.js"></script>
+    <title>Shatterpoint</title>
+</head>
+<body>
+    <Header>
+    <div id="change_theme_box">
+        <input type="checkbox" id="button" >
+        <label class="theme_label" for="button"></label>
+    </div>
+    <a class="logosw" href="Index.html">
+        <img src="../image/logoèshatterpoint.png" alt="Logo Shatterpoint" class="logosw">
+    </a>
+    <ul>
+        <li>
+                    <a href="https://www.atomicmassgames.com/swp-transmissions/">
+                        <img src="../image/icone_antenne.png" alt="icone_antenne" class="icone">
+                        <div class="info_bulle">
+                            <p id="text_bulle">AMG - Règle</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.atomicmassgames.com/swp-rules/">
+                        <img src="../image/icone_règle.png" alt="icone_livre" class="icone">
+                        <div class="info_bulle">
+                            <p id="text_bulle">AMG  transmissions</p>
+                        </div>
+                    </a>
+                </li>  
+            </ul>
+        </Header>
+    <main>
+        <form id="form">
+            <h1 id="title_form">Inscription à la lettre d'information</h1>
+            <div class="content_form">
+                <div id="box_saisie">
+                    <div class="saisie">
+                        <a id="coord" >Coordonnées</a>
+                    </div>
+                    <div class="saisie">
+                        <label class="label" for="Nom">Nom</label>
+                        <input type="text" name="nom">
+                    </div>
+                    <div class="saisie">
+                        <label class="label" for="Prénom">Prénom</label>
+                        <input type="text" name="prénom">
+                    </div>
+                    <div class="saisie">
+                        <label class="label" for="Adresse">Adresse</label>
+                        <input type="text" name="adresse">
+                    </div>
+                    <div class="saisie">
+                        <label class="label" for="Ville">Ville</label>
+                        <input type="text" name="ville">
+                    </div>
+                    <div class="saisie">
+                        <label id="tel" class="label" for="Téléphone">Téléphone</label>
+                        <input type="tel" name="tel">
+                    </div>
+                    <input id="submit" type="submit" value="Submit">
+                </div>
+                <div id="condition">
+                    <div id="box_insc">
+                        <a id="insc">S'inscrire à la lettre d'information</a>
+                    </div>
+
+                    <div id="selection_1">
+                        <label class="label" id="LConf" for="LConf">Confirmer l'Inscription:</label>
+                        <input type="checkbox" id="case1" name="fname">
+                            <a>Je souhaite recevoir la lettre d'information</a>
+                        <input type="checkbox" id="case2" name="fname">
+                            <a>J'accepte de recevor des offres des partenaires</a>
+                    </div>
+
+                    <div id="selection_2">
+                    <label class="label" id="FConf" for="FConf">Format de la lettre:</label>
+                        <input type="radio" id="select1" name="lname"> 
+                            <a>Format HTML</a>
+                        <input type="radio" id="select2" name="lname"> 
+                            <a>Format Texte brut</a>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; CÉZAR Benjamin</p>
+    </footer>
+</body>
+</html>
