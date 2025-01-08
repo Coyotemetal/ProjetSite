@@ -91,11 +91,13 @@ li a:hover {
     border-radius: 50px;
     transition: 1s;
     border: 2px solid var(--ColorBorderTheme);
+    z-index: 2;
 }
 #text_bulle {
     position: relative;
     bottom: 7px;
     color: white;
+    z-index: 100;
 }
 li a:hover > .info_bulle {
 transform: scale(1);
@@ -161,7 +163,7 @@ main {
     display: flex;
     justify-content: center;
     align-content: center;
-    z-index: 1;
+    z-index: 0;
 }
 .link {
     display: flex;
@@ -311,7 +313,6 @@ form {
 /*menu de recherche*/
 #select_character {
     position: relative;
-    z-index: 50;
     background-color: #b4b4b4;
     box-shadow: 0 3px 10px #9b9b9b;
     display: flex;
@@ -320,7 +321,6 @@ form {
 }
 #research_bar {
     position: relative;
-    z-index: 51;
     height: 20px;
     width: 98%;
     border-radius: 5px;
