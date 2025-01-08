@@ -24,5 +24,5 @@ themeButton.addEventListener('change', () => {
 
 // Fonction pour mettre à jour le thème
 function updateTheme(theme) {
-    themeLink.href = `../css/${theme}.css`;
+    themeLink.href = `css/${theme}.css`;
 }
