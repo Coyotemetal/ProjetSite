@@ -300,10 +300,17 @@ form {
 /*Fin Main Form Zone*/
 
 /*Personnage Zone*/
+#main_box {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #b4b4b4;
+    z-index: 0;
+}
 #main_character {
     min-height: 100vh;
     width: 100%;
-    background-color: #08559C;
 
     display: grid;
     grid-template-rows: 60px 1fr;
@@ -369,6 +376,17 @@ table {
 .text_perso {
     height: 100px;
     width: 100px;
+}
+#tab_box {
+    display: flex;
+    justify-content: center;
+}
+table, th{
+    text-align: center;
+    height: 100px;
+    width: 100px ;
+    border-collapse: collapse;
+    border: 5px solid red;
 }
 
 /*Fin Box personnage*/
