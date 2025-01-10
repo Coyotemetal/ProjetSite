@@ -40,7 +40,6 @@ li{
     flex-direction: row-reverse;
     justify-content: right;
     align-content: center;
-    
 }
 li a {
     display:flex;
@@ -52,24 +51,20 @@ li a {
     position: absolute;
     border-radius: 50%;
     text-align: center;
-    background: var(--ColorBackgroundTheme);
-    box-shadow:  3px 3px 3px #acacac,
-                -3px -3px 3px #b9b9b9;
 }
 .icone{
     position: absolute;
-    transition: 10s;
-    height: 30px;
-    width: 50px;
-    border-radius: 9800px;
-    top: 7px;
+    transition: 500ms;
+    font-size: 40px;
+    color: black;
 }
-li a:hover {
-
-    border-radius: 50%;
-    background: var(--ColorBackgroundTheme);
-    box-shadow: inset 5px 5px 4px #525252,
-            inset -5px -5px 4px #6e6e70;
+#icone_livre, #icone_antenne {
+    font-size: 35px;
+    top: 5px;
+    z-index: 5;
+}
+li a .icone:hover {
+    color: rgb(155, 69, 3);
 }
 /**/
 .logosw {
