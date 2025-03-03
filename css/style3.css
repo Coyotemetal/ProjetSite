@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    margin-left: 15px;
+    padding: 0;
+}
+body {
+    background-color:rgb(0, 0, 0) ;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.main_div {
+    color: rgba(129, 165, 219, 0.788);
+    font-size: 18px;
+}
+.titre {
+    color: yellow;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text {
+    color: rgb(166, 189, 209);
+    font-size: 15px;
+    margin-left: 10px;
+}
